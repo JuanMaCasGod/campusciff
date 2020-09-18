@@ -36,3 +36,31 @@ Para comprobar que hemos ignorado la carpeta como el archivo, antes de crear
 el **.gitignore** haremos un **git status** y despues de crearlo lo haremos
 y veremos que se a ignorado correctamente. Para comprobar que es lo que se ha 
 ignorado podemos poner el siguiente comando **git status --ignored**.
+
+A continuacion crearemos otro archivo .txt de la misma manera que anteriormente
+con el comando **copy con 1.txt**. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

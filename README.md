@@ -11,6 +11,8 @@ nos coja todo los cambios hechos hasta ahora, ahora es turno de poner
 el comando commit. Dentro de este comando se tendra que poner un 
 comentario este se hara con -m y acontinuacion se pondra el comentario
 que en este caso sera "commit incial", el resultado del comando sera
+![Captura6](https://user-images.githubusercontent.com/71384524/93574706-09ec1200-f999-11ea-8104-429f83458eca.PNG)
+
 el siguiente:
 ** git commit -m "commit inicial"**
 

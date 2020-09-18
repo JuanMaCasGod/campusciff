@@ -45,7 +45,8 @@ creado en pasos atras, esto lo haremos con el siguiente comando, antes de nada
 tendremos que hacer **git add --all** y el **git commit -m "v0.1 realizando cambios"**, 
 una vez hecho esto tendremos que usar **git push --tags**.
 
-|<!-- -->|<!-- -->| 
+
+Para crear una tabla se hara de la siguiente manera.
 |NOMBRE|GITHUB|
 |-|-|
 |Rafael Dominguez|https://github.com/rafadominguez71|

@@ -47,7 +47,7 @@ una vez hecho esto tendremos que usar **git push --tags**.
 
 |<!-- -->|<!-- -->| 
 |NOMBRE|GITHUB|
-|-|-|
+
 |Rafael Dominguez|https://github.com/rafadominguez71|
 |Alejandro Guerra|https://github.com/aguerra952|
 |David Bueno|https://github.com/dvidgb|

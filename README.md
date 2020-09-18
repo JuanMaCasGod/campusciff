@@ -45,9 +45,9 @@ creado en pasos atras, esto lo haremos con el siguiente comando, antes de nada
 tendremos que hacer **git add --all** y el **git commit -m "v0.1 realizando cambios"**, 
 una vez hecho esto tendremos que usar **git push --tags**.
 
-
+|<!-- -->|<!-- -->| 
 |NOMBRE|GITHUB|
-|:-:|:-:|
+|-|-|
 |Rafael Dominguez|https://github.com/rafadominguez71|
 |Alejandro Guerra|https://github.com/aguerra952|
 |David Bueno|https://github.com/dvidgb|

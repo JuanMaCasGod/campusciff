@@ -89,17 +89,24 @@ Para terminar añadiremos como colaborador a asanzdiego.
 ----------------------------------------------------------------------------
 
 Crearemos una rama mediante el comando **git checkout v0.2**, haciendo esto 
-pondremos a la carpeta bajo esta rama. Ahora crearemos un fichero .txt con 
-el comando **copy con 2.txt**. Subiremos los cambios hechos al repositorio
-esto se hara con los dos primeros comando iguales que las veces anteriores
-mientras que el push sera de la siguiente manera:
+pondremos a la carpeta bajo esta rama. 
+
+![Captura13](https://user-images.githubusercontent.com/71384524/93923525-cafcea00-fd13-11ea-8533-9c728c11739a.PNG)
+
+Ahora crearemos un fichero .txt con el comando **copy con 2.txt**. Subiremos 
+los cambios hechos al repositorioesto se hara con los dos primeros comando 
+iguales que las veces anteriores mientras que el push sera de la siguiente manera:
 **git push --set-upstream origin v0.2**
+
+![Captura14](https://user-images.githubusercontent.com/71384524/93923761-19aa8400-fd14-11ea-95d0-51dc890a9813.PNG)
 
 Para posicionarnos en la rama master se hara con ** git checkout master**. 
 A continuacion realizaremos un merge de la rama v0.2 en la rama master, 
 **git merge v0.2**. Ahora en la rama master dentro del fichero 1.txt haremos
 una modificacion añadiendo un *Hola* y haremos commit. Nos iremos a la rama 
 v0.2 y pondremos dentro del mismo fichero 1.txt un *Adios* y haremos commit.
+Esto dara como resultado un conflicto.
+![Captura15](https://user-images.githubusercontent.com/71384524/93923921-52e2f400-fd14-11ea-8dfa-a932d0e89003.PNG)
 
 Una vez realizado esto tendremos que volver a irnos a la rama master, y 
 tendremos que hacer un merge, al hacer esto nos saldra como existe un 
@@ -112,11 +119,28 @@ Para arreglar el conflicto tendremos que hacer lo siguiente, primero haremos
 un **git add .**, a continuacion haremos **git merge v0.2** y por ultimo un
 **git commit -m "El conflicto esta arreglado"**.
 
+![Captura16](https://user-images.githubusercontent.com/71384524/93924004-6db56880-fd14-11ea-8c44-61647dab01e9.PNG)
+
 A continuacion crearemos un tag v0.2 con el comando ** git tag v0.2** y 
 borraremos la rama v0.2 con el comando **git branch -D v0.2**. Una vez hecho
 esto subiremos las domificaciones hechas.
 
+![Captura17](https://user-images.githubusercontent.com/71384524/93924044-7efe7500-fd14-11ea-985d-d436aec4098e.PNG)
+![Captura18](https://user-images.githubusercontent.com/71384524/93924056-858cec80-fd14-11ea-9004-a1e051a5d184.PNG)
+
+Ahora crearemos una organizacion donde dentro de ella crearemos dos equipos, 
+uno de administradores y otro de colaboradores.
+![Captura19](https://user-images.githubusercontent.com/71384524/93924199-b66d2180-fd14-11ea-8a41-9019c742a973.PNG)
+
+![Captura20](https://user-images.githubusercontent.com/71384524/93924205-b79e4e80-fd14-11ea-8d7b-63945fcd2a5d.PNG)
+
+![Captura21](https://user-images.githubusercontent.com/71384524/93924210-b8cf7b80-fd14-11ea-8827-010a2e57fbad.PNG)
 
 Ahora creamos un repositorio dentro de nuestra organizacion, haremos un clone 
 para tenerlo en nuestro terminal y una vez hecho esto crearemos un *index.html*
 y lo subiremos al repositorio.
+
+![Captura22](https://user-images.githubusercontent.com/71384524/93924292-d56bb380-fd14-11ea-8694-68c7b8a6339f.PNG)
+
+
+

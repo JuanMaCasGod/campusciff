@@ -111,7 +111,7 @@ Esto dara como resultado un conflicto.
 Una vez realizado esto tendremos que volver a irnos a la rama master, y 
 tendremos que hacer un merge, al hacer esto nos saldra como existe un 
 conflicto. Ahora listaremos las ramas con merge y sin merge, esto se hara
-de la siguiente manera, **git branch --merge** **get branch --no-merge**
+de la siguiente manera, **git branch --merge** y **get branch --no-merge**
 
 Para arreglar el conflicto tendremos que hacer lo siguiente, primero haremos
 un **git add .**, a continuacion haremos **git merge v0.2** y por ultimo un

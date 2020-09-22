@@ -84,16 +84,35 @@ Para crear una tabla se hara de la siguiente manera.
 Para terminar añadiremos como colaborador a asanzdiego.
 ![captura11](https://user-images.githubusercontent.com/71384524/93806432-6e34fd00-fc49-11ea-93a4-129b191abd9e.PNG)
 
-Ejercicio avanzado
+
+#####Ejercicio avanzado
 ----------------------------------------------------------------------------
 
-Primero tenemos que crear una rama y posicionarnos en ella, para realizar esto
-lo haremos con un unico comando que sera **git checkout -b v0.2**. A continuacion
-crearemos un arhcivo .txt como dijimos anteriormente **copy con 2.txt**. Ahora 
-subiremos nuestros cambios al repositorio, los dos primero comandos deben de ser
-de la misma manera, pero el comando **push** debe hacerse de la siguiente manera:
-**git push --set-upstream origin v0.2**.
+Crearemos una rama mediante el comando **git checkout v0.2**, haciendo esto 
+pondremos a la carpeta bajo esta rama. Ahora crearemos un fichero .txt con 
+el comando **copy con 2.txt**. Subiremos los cambios hechos al repositorio
+esto se hara con los dos primeros comando iguales que las veces anteriores
+mientras que el push sera de la siguiente manera:
+**git push --set-upstream origin v0.2**
 
-Para posicionarte en la rama master debemos de usar el comando **git checkout master**
-para realizar el merge es muy sencillo, tendremos que hacer **git merge v0.2**.
+Para posicionarnos en la rama master se hara con ** git checkout master**. 
+A continuacion realizaremos un merge de la rama v0.2 en la rama master, 
+**git merge v0.2**. Ahora en la rama master dentro del fichero 1.txt haremos
+una modificacion añadiendo un *Hola* y haremos commit. Nos iremos a la rama 
+v0.2 y pondremos dentro del mismo fichero 1.txt un *Adios* y haremos commit.
+
+Una vez realizado esto tendremos que volver a irnos a la rama master, y 
+tendremos que hacer un merge, al hacer esto nos saldra como existe un 
+conflicto. Ahora listaremos las ramas con merge y sin merge, esto se hara
+de la siguiente manera:
+-**git branch --merge**
+-**get branch --no-merge**
+
+Para arreglar el conflicto tendremos que hacer lo siguiente, primero haremos
+un **git add .**, a continuacion haremos **git merge v0.2** y por ultimo un
+**git commit -m "El conflicto esta arreglado"**.
+
+A continuacion crearemos un tag v0.2 con el comando ** git tag v0.2** y 
+borraremos la rama v0.2 con el comando **git branch -D v0.2**. Una vez hecho
+esto subiremos las domificaciones hechas.
 

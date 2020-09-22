@@ -86,7 +86,7 @@ Para terminar añadiremos como colaborador a asanzdiego.
 
 
 ## Ejercicio avanzado
-----------------------------------------------------------------------------
+
 
 Crearemos una rama mediante el comando **git checkout v0.2**, haciendo esto 
 pondremos a la carpeta bajo esta rama. 

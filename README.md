@@ -84,3 +84,16 @@ Para crear una tabla se hara de la siguiente manera.
 Para terminar añadiremos como colaborador a asanzdiego.
 ![captura11](https://user-images.githubusercontent.com/71384524/93806432-6e34fd00-fc49-11ea-93a4-129b191abd9e.PNG)
 
+Ejercicio avanzado
+----------------------------------------------------------------------------
+
+Primero tenemos que crear una rama y posicionarnos en ella, para realizar esto
+lo haremos con un unico comando que sera **git checkout -b v0.2**. A continuacion
+crearemos un arhcivo .txt como dijimos anteriormente **copy con 2.txt**. Ahora 
+subiremos nuestros cambios al repositorio, los dos primero comandos deben de ser
+de la misma manera, pero el comando **push** debe hacerse de la siguiente manera:
+**git push --set-upstream origin v0.2**.
+
+Para posicionarte en la rama master debemos de usar el comando **git checkout master**
+para realizar el merge es muy sencillo, tendremos que hacer **git merge v0.2**.
+

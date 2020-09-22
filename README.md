@@ -85,7 +85,7 @@ Para terminar añadiremos como colaborador a asanzdiego.
 ![captura11](https://user-images.githubusercontent.com/71384524/93806432-6e34fd00-fc49-11ea-93a4-129b191abd9e.PNG)
 
 
-#####Ejercicio avanzado
+##### Ejercicio avanzado
 ----------------------------------------------------------------------------
 
 Crearemos una rama mediante el comando **git checkout v0.2**, haciendo esto 
@@ -116,3 +116,7 @@ A continuacion crearemos un tag v0.2 con el comando ** git tag v0.2** y
 borraremos la rama v0.2 con el comando **git branch -D v0.2**. Una vez hecho
 esto subiremos las domificaciones hechas.
 
+
+Ahora creamos un repositorio dentro de nuestra organizacion, haremos un clone 
+para tenerlo en nuestro terminal y una vez hecho esto crearemos un *index.html*
+y lo subiremos al repositorio.

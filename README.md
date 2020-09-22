@@ -85,7 +85,7 @@ Para terminar añadiremos como colaborador a asanzdiego.
 ![captura11](https://user-images.githubusercontent.com/71384524/93806432-6e34fd00-fc49-11ea-93a4-129b191abd9e.PNG)
 
 
-##### Ejercicio avanzado
+### Ejercicio avanzado
 ----------------------------------------------------------------------------
 
 Crearemos una rama mediante el comando **git checkout v0.2**, haciendo esto 
